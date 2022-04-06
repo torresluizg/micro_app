@@ -1,0 +1,23 @@
+name: micro_app_login
+description: A new Flutter package project.
+# version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  micro_core:
+    path: ../../shared/micro_core
+  event_bus:
+    path: ../../shared/micro_common_event_bus
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:

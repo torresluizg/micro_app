@@ -1,0 +1,28 @@
+name: base_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  micro_core:
+    path: ../../shared/micro_core
+  micro_app_login:
+    path: ../../modules/micro_app_login
+  event_bus:
+    path: ../../shared/micro_common_event_bus
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
